@@ -47,7 +47,7 @@ while True:
         time.sleep(10)
         continue
 server_socket.listen(10)  # 接続を待ち受ける最大クライアント数
-print(f"{PORT}番ポートでTelnetチャットが起動しました\n")
+print(f"{PORT}番ポートでTelickrollが起動しました\n")
 
 while True:
     client_socket, client_address = server_socket.accept()
